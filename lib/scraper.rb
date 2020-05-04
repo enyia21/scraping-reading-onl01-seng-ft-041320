@@ -8,7 +8,7 @@ doc = Nokogiri::HTML(html)
 # puts doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")
 # puts doc.css("#3c239880-48cf-5ce7-84d0-578546d87586")
 courses = doc.css("#3c239880-48cf-5ce7-84d0-578546d87586 .inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")
-id-
+
 
 # puts doc.css(".title-oE5vT4")
 courses.each do |course|
