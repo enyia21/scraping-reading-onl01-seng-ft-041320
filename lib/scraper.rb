@@ -5,7 +5,7 @@ html = open("https://flatironschool.com/")
 doc = Nokogiri::HTML(html)
 # puts doc.css(".headline-26OIBN").text
 
-puts doc.css(".inlineMobileLeft-2Yo002 .imageTextBlockGrid2-3jXtmC")
+puts doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")
 # courses = doc.css("#2a778efd-1685-5ec6-9e5a-0843d6a88b7b .inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
 #
 # courses.each do |course|
